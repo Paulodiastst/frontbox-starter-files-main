@@ -24,7 +24,7 @@
 :root {
 	--ff-primary: "Nunito", Helvetica, Arial, sans-serif;
 
-	--clr-green-dark: #049a40;
+	--clr-green-dark: #049A40;
 	--clr-green-light: #0BF96A;
 	--clr-pink-dark: #E10BF9;
 	--clr-pink-light: #F3A0FD;
@@ -49,6 +49,7 @@ a:visited {
 	color: black;	
 }
 
+                    /* Linha */
 hr {
 	border: none;
 	background-color: var(--clr-pink-dark);
@@ -62,7 +63,7 @@ p {
 	padding: 0 10px;
 }
 
-.section__titulo {
+.section__titulo {   
 	text-align: center;
 	font-size: 3rem;
 	margin-bottom: 10px;
@@ -79,7 +80,7 @@ img {
 /* 2. Menu
 /**********************************/
 .menu-bg {
-	background-color: var(--clr-green-dark);
+	background-color: var(--clr-green-light);
 }
 
 .menu {
@@ -93,6 +94,10 @@ img {
 
 .menu__logo {
 	margin: 10px;
+	transition: 0.5s;
+}
+.menu__logo:hover {
+	transform: scale(1.1);
 }
 
 .nav__list {
@@ -112,7 +117,7 @@ img {
 	font-weight: bold;
 	font-size: 3rem;
 	text-align: center;
-    margin: 0 auto;
+  margin: 0 auto;
 	padding: 25px 0;
 }
 
@@ -142,6 +147,27 @@ img {
 /**********************************/
 /* 5. Nossos cursos
 /**********************************/
+
+.cursos {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.cursos-c {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.curso {
+	width: 280px;
+	margin: 0 20px;
+}
+
+.curso__titulo {
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 10px 0 5px 0;
+}
 
 /**********************************/
 /* 6. Planos
