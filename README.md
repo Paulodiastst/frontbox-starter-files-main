@@ -11,3 +11,6 @@ Nesse repositório você encontra os *starter files* de um projeto construído c
 - Trabalhar com variáveis CSS
 - Media Queries
 
+![frontbox](https://user-images.githubusercontent.com/79487813/119265595-a2d4cc00-bbbd-11eb-9e7c-290be4235cd7.png)
+
+
